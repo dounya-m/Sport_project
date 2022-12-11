@@ -17,9 +17,9 @@
     }
     .cercele_navBar{
         position: absolute;
-        width: 16rem;
-        height: 16rem;
-        left: 50%;
+        width: 20rem;
+        height: 20rem;
+        left: 45%;
         border-radius: 100%;
         background: rgb(255,201,91);
         background: radial-gradient(circle, rgba(255, 90, 30, 0.778) 0%, rgba(252, 179, 70, 0.79) 100%);
@@ -57,3 +57,40 @@
         cursor: pointer;
         background-color: transparent;
     }
+/*Header background*/
+.header_main{
+    position: relative;
+    overflow: hidden;
+}
+.bg_sport{
+    /* position: absolute; */
+    text-align: center;
+    font-size: 15rem;
+    letter-spacing: 2rem;
+    color: rgba(240, 248, 255, 0.068);
+}
+.image_header{
+    filter:brightness(-19) ;
+}
+
+.heder_main{
+    padding: 2rem;
+    text-transform: capitalize;
+}
+.header_main_subtitle{
+    font-weight: bold;
+}
+.heder_main_title{
+    font-weight: 200;
+    font-size: 3.5rem;
+}
+.span_header_title{
+    font-weight: 400;
+    color: #ebe3ff;
+}
+.header_image_fitnes{
+    width: 40vw;
+    height: 30vw;
+    object-fit: cover;
+    border-bottom-right-radius: 100px;
+}
